@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1936058945f56e5468156cee2d80b320
+timeCreated: 1515953501
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cannonObject: {instanceID: 0}
+  - weaponClick: {fileID: 8300000, guid: d512811a597727e48a326c7c96e0a5c0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
