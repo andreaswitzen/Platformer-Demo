@@ -7,7 +7,7 @@ Features:
 - Three different guns to fire at enemy.
 - Juicy 2D-graphics and audio.
 
-### [Download latest Windows build](https://github.com/andreaswitzen/Platformer-Demo/releases/download/v1.0.0/Platformer-Demo-Build.v1.0.0.zip)
+### [Download Windows build](https://github.com/andreaswitzen/Platformer-Demo/releases/download/v1.0.0/Platformer-Demo-Build.v1.0.0.zip)
 
 ## Screenshots
 
