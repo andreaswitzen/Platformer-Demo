@@ -13,8 +13,6 @@ Features:
 
 ![0](https://user-images.githubusercontent.com/6855253/193433083-cec56e6d-1e5b-4a3e-8fdf-352745941671.png)
 ![1](https://user-images.githubusercontent.com/6855253/193433084-e82ee961-7f74-48e2-b2b3-88e0a80a0b23.png)
-![2](https://user-images.githubusercontent.com/6855253/193433086-cfdecbc6-583a-4fe1-b85e-00effde9fd02.png)
 ![3](https://user-images.githubusercontent.com/6855253/193433091-771ab96c-1bea-40f2-9794-fa9b162d5cd5.png)
 ![4](https://user-images.githubusercontent.com/6855253/193433092-ba08c19d-e114-4d51-8381-6bbb625e6dae.png)
 ![5](https://user-images.githubusercontent.com/6855253/193433093-87563e09-46b5-4729-a355-b68d323bb21e.png)
-![6](https://user-images.githubusercontent.com/6855253/193433094-8a7acb46-39e5-483d-bdc2-c8c970ff744b.png)
