@@ -9,5 +9,5 @@ Features:
 
 ### [Download Windows build](https://github.com/andreaswitzen/Platformer-Demo/releases/download/v1.0.0/Platformer-Demo-Build.v1.0.0.zip)
 
-
+<br>
 [Platformer.webm](https://user-images.githubusercontent.com/6855253/202486205-7575beb4-1bd4-47d1-af8b-d54962d86457.webm)
