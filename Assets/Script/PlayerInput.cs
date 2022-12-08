@@ -7,7 +7,7 @@ using static MoveState;
 
 // Handles player input.
 // Note: this is an old script that should be replaced/rewritten to use Unity's newer input system.
-// This would make it easier to add key rebinding and using other controllers like a gamepad.
+// This would for instance make it easier to add key rebinding or to enable using other controllers than a keyboard.
 public class PlayerInput : MonoBehaviour
 {
 	[SerializeField] private GameObject _graphy;
@@ -18,48 +18,48 @@ public class PlayerInput : MonoBehaviour
 
 	#region Key bindings
 
-	private bool PausePressed			=> GetKeyDown(Escape);
+	private bool PausePressed        => GetKeyDown(Escape);
 
-	private bool RestartPressed			=> GetKeyDown(Return);
+	private bool RestartPressed      => GetKeyDown(Return);
 
-	private bool GraphyPressed			=> GetKeyDown(Backslash);
+	private bool GraphyPressed       => GetKeyDown(Backslash);
 
-	private bool ScreenshotPressed		=> GetKeyDown(F12);
+	private bool ScreenshotPressed   => GetKeyDown(F12);
 
-	private bool InteractPressed		=> GetKeyDown(E);
+	private bool InteractPressed     => GetKeyDown(E);
 
-	private bool DuckHeld				=> GetKey(S)
-										|| GetKey(DownArrow);
+	private bool DuckHeld            => GetKey(S)
+	                                 || GetKey(DownArrow);
 
-	private bool DuckReleased			=> GetKeyUp(S)
-										|| GetKeyUp(DownArrow);
+	private bool DuckReleased        => GetKeyUp(S)
+	                                 || GetKeyUp(DownArrow);
 
-	private bool LeftHeld				=> GetKey(LeftArrow)
-										|| GetKey(A);
+	private bool LeftHeld            => GetKey(LeftArrow)
+	                                 || GetKey(A);
 
-	private bool RightHeld				=> GetKey(RightArrow)
-										|| GetKey(D);
+	private bool RightHeld           => GetKey(RightArrow)
+	                                 || GetKey(D);
 
-	private bool JumpPressed			=> GetKeyDown(UpArrow)
-										|| GetKeyDown(W)
-										|| GetKeyDown(KeyCode.Space);
+	private bool JumpPressed         => GetKeyDown(UpArrow)
+	                                 || GetKeyDown(W)
+	                                 || GetKeyDown(KeyCode.Space);
 
-	private bool JumpReleased			=> GetKeyUp(UpArrow)
-										|| GetKeyUp(W)
-										|| GetKeyUp(KeyCode.Space);
+	private bool JumpReleased        => GetKeyUp(UpArrow)
+	                                 || GetKeyUp(W)
+	                                 || GetKeyUp(KeyCode.Space);
 
-	private bool CycleWeaponsPressed	=> GetKeyDown(LeftAlt)
-										|| GetKeyDown(RightAlt);
+	private bool CycleWeaponsPressed => GetKeyDown(LeftAlt)
+	                                 || GetKeyDown(RightAlt);
 
-	private bool FireWeaponPressed		=> GetKeyDown(LeftControl)
-										|| GetKeyDown(RightControl);
+	private bool FireWeaponPressed   => GetKeyDown(LeftControl)
+	                                 || GetKeyDown(RightControl);
 
-	private bool FireWeaponHeld			=> GetKey(LeftControl)
-										|| GetKey(RightControl);
+	private bool FireWeaponHeld	     => GetKey(LeftControl)
+	                                 || GetKey(RightControl);
 
 	private bool ReloadWeaponPressed => GetKeyDown(R)
-										|| GetKeyDown(LeftShift)
-										|| GetKeyDown(RightShift);
+	                                 || GetKeyDown(LeftShift)
+	                                 || GetKeyDown(RightShift);
 
 	#endregion
 
