@@ -54,7 +54,7 @@ public class PlayerInput : MonoBehaviour
 	private bool FireWeaponPressed   => GetKeyDown(LeftControl)
 	                                 || GetKeyDown(RightControl);
 
-	private bool FireWeaponHeld	     => GetKey(LeftControl)
+	private bool FireWeaponHeld      => GetKey(LeftControl)
 	                                 || GetKey(RightControl);
 
 	private bool ReloadWeaponPressed => GetKeyDown(R)
