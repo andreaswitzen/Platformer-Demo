@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using static Services;
 
 // Displays ammo count for the currently equipped weapon.
-public class AmmouCounterUI : MonoBehaviour
+public class AmmoCounterUI : MonoBehaviour
 {
 	[SerializeField] private Text _text;
 
